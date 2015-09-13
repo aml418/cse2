@@ -27,8 +27,7 @@ public class Check{
         int dollars = (int)costPerPerson; //whole dollar amount of cost 
         int dimes=(int)(costPerPerson * 10) % 10;
         int pennies=(int)(costPerPerson * 100) % 10;
-        //System.out.println("Each person in the group owes $” + (int)dollars + "." + ((int)dimes +(int) pennies));
-        System.out.println("Each person in the group owes $" + (int)dollars + "." + ((int)dimes + (int)pennies));
+        System.out.println("Each person in the group owes $" + (int)dollars + "." + (int)dimes + (int)pennies);
 
 }
         

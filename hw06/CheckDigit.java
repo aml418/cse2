@@ -18,12 +18,12 @@ public class CheckDigit{
     int ninthDigit;
     int sum;
     int tenthDigit;
-    //System.out.print("Please enter a 10-digit barcode:");
+    System.out.print("Please enter a 10-digit barcode:");
     while (!input.hasNextInt()){
            System.out.print("Please enter a 10-digit barcode:");
            //barcode = input.nextInt();
     } 
-   
+    barcode = input.nextInt();
        //When the enter digits is valid 10 digits, excute the following command: 
             firstDigit = barcode / 1000000000;
             //System.out.println(firstDigit);
@@ -56,7 +56,7 @@ public class CheckDigit{
                     System.out.println("This barcode is NOT valid. The check digit should be X");
                 }
                 else{
-                    System.out.println("This barcode is NOT valid. The check digit should be " + tenthDigit);
+                    System.out.println("This barcode is NOT valid. The check digit should be " + sum);
                 }//end of nested else
              }//end of else 
 

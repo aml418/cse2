@@ -1,4 +1,5 @@
 //Anna Li Homework 6, CheckDigit.java
+//This program only works for 10 digit code without any letter
 //import scanner, so user can input number 
 import java.util.Scanner;
 //define a class
